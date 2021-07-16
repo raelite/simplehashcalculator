@@ -17,30 +17,25 @@ for i in itertools.count():
 
     def md5_generator(user_string):
         md5hash = hashlib.md5(user_string.encode('utf-8')).hexdigest()
-       # print(Fore.RED + f"MD5: {md5hash}\n" + Style.RESET_ALL)
         print(f"MD5 HASH: ", Fore.RED + md5hash + Style.RESET_ALL)
 
 
     def sha256_generator(user_string):
         sha256hash = hashlib.sha256(user_string.encode('utf-8')).hexdigest()
-        #print(Fore.RED + f"SHA256: {sha256hash}\n" + Style.RESET_ALL)
         print(f"SHA256 HASH: ", Fore.RED + sha256hash + Style.RESET_ALL)
 
 
     def sha512_generator(user_string):
         sha512_hash = hashlib.sha512(user_string.encode('utf-8')).hexdigest()
-        #print(Fore.RED + f"SHA512: {sha512_hash}\n" + Style.RESET_ALL)
         print(f"SHA512 HASH: ", Fore.RED + sha512_hash + Style.RESET_ALL)
 
     def sha3_256_generator(user_string):
         sha3_256_hash = hashlib.sha3_256(user_string.encode('utf-8')).hexdigest()
-        #print(Fore.RED + f"SHA3-256: {sha3_256_hash}\n" + Style.RESET_ALL)
         print(f"SHA3-256 HASH: ", Fore.RED + sha3_256_hash + Style.RESET_ALL)
 
 
     def sha3_512_generator(user_string):
         sha3_512_hash = hashlib.sha3_512(user_string.encode('utf-8')).hexdigest()
-        #print(Fore.RED + f"SHA3-512: {sha3_512_hash}\n" + Style.RESET_ALL)
         print(f"SHA3-512 HASH: ", Fore.RED + sha3_512_hash + Style.RESET_ALL)
 
 
