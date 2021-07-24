@@ -17,7 +17,7 @@ for i in itertools.count():
         hash_choice = input("Please Enter Your Choice (1-5): ")
         user_string = input("Please Enter Your Text: ")
     else:
-        file_path = input(r"Please enter your file path: ")
+        file_path = input(r"Please enter your file path (absolute): ")
 
 
     def md5_generator(user_string):
